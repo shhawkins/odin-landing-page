@@ -1,0 +1,264 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 908px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h4 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+img {
+    height: 200px;
+    /* padding: 20px; */
+    border-radius: 25%;
+}
+
+li {
+    list-style-type: none;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-color: white;
+    /* background-color: #063449; */
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.one {
+    background-color: #1F2937;
+    color: aliceblue;
+    padding: 5px 5px 100px 5px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 40px 50px 40px;
+}
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #E5E7EB;
+    height: 400px;
+    padding: 40px;
+}
+
+.four {
+    height: 300px;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    font-size: 200;
+    padding: 20px 20px;
+    gap: 100px;
+}
+
+.logo-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+
+.logo-stack h1 {
+    font-size: 16px;
+    text-align: center;
+    /* background-color: #c5ad0f;
+    color: #1F2937; */
+    color: white;
+    border-style: solid;
+    border-color: solid;
+    border-radius: 10px;
+    padding: 5px 8px;
+}
+
+.left-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a7fa7;
+    border-radius: 8px;
+    padding: 14px;
+}
+
+.header-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.left-bottom p {
+    color: white;
+    max-width: 250px;
+}
+
+.bold {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.left-top {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex: 1;
+    padding: 25px 20px;
+    gap: 30px;
+}
+
+.container img {
+    height: 220px;
+}
+
+.left-top p {
+    font-size: 18px;
+}
+
+.right-top {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.button {
+    width: 120px;
+    height: 30px;
+    background-color: #0a7fa7;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-box {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: baseline;
+    gap: 40px;
+}
+
+.card-box p {
+    max-width: 150px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold-offer {
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #063449;
+    width: 600px;
+    height: 110px;
+    padding: 50px 0px;
+    border-radius: 15px;
+}
+
+.two h2 {
+    font-size: 33px;
+    font-weight: 900;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.three p {
+    font-size: 40px;
+    max-width: 600px;
+    font-style: italic;
+}
+
+.three p {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.one img {
+    border-radius: 0px;
+    height: 325px;
+    flex-grow: 1;
+}
+
+.footer img {
+    height: 80px;
+}
+
+.footer p {
+    /* margin-bottom: 0; */
+    font-weight: bold;
+}
+
+.left-logo img {
+    height: 100px;
+    border-radius: 30px;
+}
+
+.logo-stack p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #063449;
+    margin: 0px;
+    padding: 10px;
+}
+
+.card p {
+    text-align: center;
+    font-size: smaller;
+}
